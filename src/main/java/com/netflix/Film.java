@@ -1,5 +1,4 @@
 package com.netflix;
 
-public class Main {
-
+public class Film {
 }
