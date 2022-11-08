@@ -8,4 +8,6 @@ public class Catalogue {
     public Catalogue(Vector<Content> catalogue) {
         Catalogue = catalogue;
     }
+
+
 }

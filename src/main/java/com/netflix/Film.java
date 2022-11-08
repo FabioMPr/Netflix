@@ -19,4 +19,12 @@ public class Film extends Content {
     public void setDurata(int durata) {
         this.durata = durata;
     }
+
+    @Override
+    public String toString() {
+        return "Film{" +
+                "regia='" + regia + '\'' +
+                ", durata=" + durata +
+                '}';
+    }
 }

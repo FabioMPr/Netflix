@@ -28,4 +28,13 @@ public class Serie extends Content{
     public void setStagioni(int stagioni) {
         this.stagioni = stagioni;
     }
+
+    @Override
+    public String toString() {
+        return "Serie{" +
+                "regista='" + regista + '\'' +
+                ", episodi=" + episodi +
+                ", stagioni=" + stagioni +
+                '}';
+    }
 }

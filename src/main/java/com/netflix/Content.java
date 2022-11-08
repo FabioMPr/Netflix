@@ -49,4 +49,15 @@ public class Content {
     public void setInfo(String info) {
         this.info = info;
     }
+
+    @Override
+    public String toString() {
+        return "Content{" +
+                "titolo='" + titolo + '\'' +
+                ", anno=" + anno +
+                ", genere='" + genere + '\'' +
+                ", compatibilita=" + compatibilita +
+                ", info='" + info + '\'' +
+                '}';
+    }
 }
